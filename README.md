@@ -12,7 +12,6 @@
 
 ## Flutter IDLE Charts
 
-<span>
 <img src="./Flutter%20IDLE/FPS.svg" width="300" height="300">
 <img src = "./Flutter%20IDLE/TotalxCPUxUsagexxxx.svg" width="300" height="300">
 </span>
@@ -36,7 +35,6 @@
 
 ## RN IDLE Charts
 
-<span>
 <img src = "./RN_IDLE/FPS.svg" width="300" height="300">
 <img src = "./RN_IDLE/TotalxCPUxUsagexxxx.svg" width="300" height="300">
 </span>
