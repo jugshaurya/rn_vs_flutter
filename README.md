@@ -11,29 +11,47 @@
 | Highest RAM Usage                    | 275 MB          | 360MB                 | 253MB                                           | 311                                             |
 
 ## Flutter IDLE Charts
-
+<span>
 <img src="./Flutter%20IDLE/FPS.svg" width="300" height="300">
 <img src = "./Flutter%20IDLE/TotalxCPUxUsagexxxx.svg" width="300" height="300">
+</span>
+<br/>
+<span>
 <img src = "./Flutter%20IDLE/CPUxUsagexperxthreadxxxx.svg" width="300" height="300">
 <img src = "./Flutter%20IDLE/RAMxUsagexxMBx.svg" width="300" height="300">
+</span>
 
 ## Flutter With Interactivity Charts
 
+<span>
 <img src="./Flutter_interactivity/FPS.svg" width="300" height="300">
 <img src = "./Flutter_interactivity/TotalxCPUxUsagexxxx.svg" width="300" height="300">
+</span>
+<br/>
+<span>
 <img src = "./Flutter_interactivity/CPUxUsagexperxthreadxxxx.svg" width="300" height="300">
 <img src = "./Flutter_interactivity/RAMxUsagexxMBx.svg" width="300" height="300">
+</span>
 
 ## RN IDLE Charts
-
+<span>
 <img src = "./RN_IDLE/FPS.svg" width="300" height="300">
 <img src = "./RN_IDLE/TotalxCPUxUsagexxxx.svg" width="300" height="300">
+</span>
+<br/>
+<span>
 <img src = "./RN_IDLE/CPUxUsagexperxthreadxxxx.svg" width="300" height="300">
 <img src = "./RN_IDLE/RAMxUsagexxMBx.svg" width="300" height="300">
+</span>
 
 ## RN With Interactivity Charts
 
+<span>
 <img src = "./RN_interactivity/FPS.svg" width="300" height="300">
 <img src = "./RN_interactivity/TotalxCPUxUsagexxxx.svg" width="300" height="300">
+</span>
+<br/>
+<span>
 <img src = "./RN_interactivity/CPUxUsagexperxthreadxxxx.svg" width="300" height="300">
 <img src = "./RN_interactivity/RAMxUsagexxMBx.svg" width="300" height="300">
+</span>
