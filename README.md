@@ -14,70 +14,70 @@
 
 ### FPS
 
-![](/Flutter%20IDLE/FPS.svg)
+<img src="./Flutter%20IDLE/FPS.svg" style="background:white">
 
 ### CPU Total
 
-![](/Flutter%20IDLE/TotalxCPUxUsagexxxx.svg)
+<img src = "./Flutter%20IDLE/TotalxCPUxUsagexxxx.svg" style="background:white">
 
 ### CPU Thread-wise
 
-![](/Flutter%20IDLE/CPUxUsagexperxthreadxxxx.svg)
+<img src = "./Flutter%20IDLE/CPUxUsagexperxthreadxxxx.svg" style="background:white">
 
 ### RAM
 
-![](/Flutter%20IDLE/RAMxUsagexxMBx.svg)
+<img src = "./Flutter%20IDLE/RAMxUsagexxMBx.svg" style="background:white">
 
 ## Flutter With Interactivity Charts
 
 ### FPS
 
-![](/Flutter_interactivity/FPS.svg)
+<img src="./Flutter_interactivity/FPS.svg" style="background:white">
 
 ### CPU Total
 
-![](/Flutter_interactivity/TotalxCPUxUsagexxxx.svg)
+<img src = "./Flutter_interactivity/TotalxCPUxUsagexxxx.svg" style="background:white">
 
 ### CPU Thread-wise
 
-![](/Flutter_interactivity/CPUxUsagexperxthreadxxxx.svg)
+<img src = "./Flutter_interactivity/CPUxUsagexperxthreadxxxx.svg" style="background:white">
 
 ### RAM
 
-![](/Flutter_interactivity/RAMxUsagexxMBx.svg)
+<img src = "./Flutter_interactivity/RAMxUsagexxMBx.svg" style="background:white">
 
 ## RN IDLE Charts
 
 ### FPS
 
-![](/RN_IDLE/FPS.svg)
+<img src = "./RN_IDLE/FPS.svg" style="background:white">
 
 ### CPU Total
 
-![](/RN_IDLE/TotalxCPUxUsagexxxx.svg)
+<img src = "./RN_IDLE/TotalxCPUxUsagexxxx.svg" style="background:white">
 
 ### CPU Thread-wise
 
-![](/RN_IDLE/CPUxUsagexperxthreadxxxx.svg)
+<img src = "./RN_IDLE/CPUxUsagexperxthreadxxxx.svg" style="background:white">
 
 ### RAM
 
-![](/RN_IDLE/RAMxUsagexxMBx.svg)
+<img src = "./RN_IDLE/RAMxUsagexxMBx.svg" style="background:white">
 
 ## RN With Interactivity Charts
 
 ### FPS
 
-![](/RN_interactivity/FPS.svg)
+<img src = "./RN_interactivity/FPS.svg" style="background:white">
 
 ### CPU Total
 
-![](/RN_interactivity/TotalxCPUxUsagexxxx.svg)
+<img src = "./RN_interactivity/TotalxCPUxUsagexxxx.svg" style="background:white">
 
 ### CPU Thread-wise
 
-![](/RN_interactivity/CPUxUsagexperxthreadxxxx.svg)
+<img src = "./RN_interactivity/CPUxUsagexperxthreadxxxx.svg" style="background:white">
 
 ### RAM
 
-![](/RN_interactivity/RAMxUsagexxMBx.svg)
+<img src = "./RN_interactivity/RAMxUsagexxMBx.svg" style="background:white">
