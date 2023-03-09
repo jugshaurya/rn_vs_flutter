@@ -12,72 +12,28 @@
 
 ## Flutter IDLE Charts
 
-### FPS
-
-<img src="./Flutter%20IDLE/FPS.svg" style="background:black">
-
-### CPU Total
-
-<img src = "./Flutter%20IDLE/TotalxCPUxUsagexxxx.svg" style="background:black">
-
-### CPU Thread-wise
-
-<img src = "./Flutter%20IDLE/CPUxUsagexperxthreadxxxx.svg" style="background:black">
-
-### RAM
-
-<img src = "./Flutter%20IDLE/RAMxUsagexxMBx.svg" style="background:black">
+<img src="./Flutter%20IDLE/FPS.svg" width="300" height="300">
+<img src = "./Flutter%20IDLE/TotalxCPUxUsagexxxx.svg" width="300" height="300">
+<img src = "./Flutter%20IDLE/CPUxUsagexperxthreadxxxx.svg" width="300" height="300">
+<img src = "./Flutter%20IDLE/RAMxUsagexxMBx.svg" width="300" height="300">
 
 ## Flutter With Interactivity Charts
 
-### FPS
-
-<img src="./Flutter_interactivity/FPS.svg" style="background:black">
-
-### CPU Total
-
-<img src = "./Flutter_interactivity/TotalxCPUxUsagexxxx.svg" style="background:black">
-
-### CPU Thread-wise
-
-<img src = "./Flutter_interactivity/CPUxUsagexperxthreadxxxx.svg" style="background:black">
-
-### RAM
-
-<img src = "./Flutter_interactivity/RAMxUsagexxMBx.svg" style="background:black">
+<img src="./Flutter_interactivity/FPS.svg" width="300" height="300">
+<img src = "./Flutter_interactivity/TotalxCPUxUsagexxxx.svg" width="300" height="300">
+<img src = "./Flutter_interactivity/CPUxUsagexperxthreadxxxx.svg" width="300" height="300">
+<img src = "./Flutter_interactivity/RAMxUsagexxMBx.svg" width="300" height="300">
 
 ## RN IDLE Charts
 
-### FPS
-
-<img src = "./RN_IDLE/FPS.svg" style="background:black">
-
-### CPU Total
-
-<img src = "./RN_IDLE/TotalxCPUxUsagexxxx.svg" style="background:black">
-
-### CPU Thread-wise
-
-<img src = "./RN_IDLE/CPUxUsagexperxthreadxxxx.svg" style="background:black">
-
-### RAM
-
-<img src = "./RN_IDLE/RAMxUsagexxMBx.svg" style="background:black">
+<img src = "./RN_IDLE/FPS.svg" width="300" height="300">
+<img src = "./RN_IDLE/TotalxCPUxUsagexxxx.svg" width="300" height="300">
+<img src = "./RN_IDLE/CPUxUsagexperxthreadxxxx.svg" width="300" height="300">
+<img src = "./RN_IDLE/RAMxUsagexxMBx.svg" width="300" height="300">
 
 ## RN With Interactivity Charts
 
-### FPS
-
-<img src = "./RN_interactivity/FPS.svg" style="background:black">
-
-### CPU Total
-
-<img src = "./RN_interactivity/TotalxCPUxUsagexxxx.svg" style="background:black">
-
-### CPU Thread-wise
-
-<img src = "./RN_interactivity/CPUxUsagexperxthreadxxxx.svg" style="background:black">
-
-### RAM
-
-<img src = "./RN_interactivity/RAMxUsagexxMBx.svg" style="background:black">
+<img src = "./RN_interactivity/FPS.svg" width="300" height="300">
+<img src = "./RN_interactivity/TotalxCPUxUsagexxxx.svg" width="300" height="300">
+<img src = "./RN_interactivity/CPUxUsagexperxthreadxxxx.svg" width="300" height="300">
+<img src = "./RN_interactivity/RAMxUsagexxMBx.svg" width="300" height="300">
