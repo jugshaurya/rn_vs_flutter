@@ -57,3 +57,8 @@
 <img src = "./RN_interactivity/CPUxUsagexperxthreadxxxx.svg" width="300" height="300">
 <img src = "./RN_interactivity/RAMxUsagexxMBx.svg" width="300" height="300">
 </span>
+
+### Links
+
+- https://github.com/jugshaurya/rn_vs_flutter
+- https://medium.com/@shauryasinghal84/measuring-the-performance-of-react-native-apps-77741b199ce7
