@@ -10,7 +10,7 @@
 | Lowest RAM Usage                           | 273 MB          | 274MB                      | 148MB                                           | 249                                             |
 | Highest RAM Usage                          | 275 MB          | 360MB                      | 253MB                                           | 311                                             |
 
-## Flutter IDLE Charts
+## [Flutter IDLE Charts](https://htmlpreview.github.io/?https://github.com/jugshaurya/rn_vs_flutter/blob/main/Flutter%20IDLE/Performance%20Profiler.html)
 
 <span>
 <img src="./Flutter%20IDLE/FPS.svg" width="300" height="300">
@@ -22,7 +22,7 @@
 <img src = "./Flutter%20IDLE/RAMxUsagexxMBx.svg" width="300" height="300">
 </span>
 
-## Flutter With Interactivity Charts
+## [Flutter With Interactivity Charts](https://htmlpreview.github.io/?https://github.com/jugshaurya/rn_vs_flutter/blob/main/Flutter_interactivity/Performance%20Profiler.html)
 
 <span>
 <img src="./Flutter_interactivity/FPS.svg" width="300" height="300">
@@ -34,7 +34,7 @@
 <img src = "./Flutter_interactivity/RAMxUsagexxMBx.svg" width="300" height="300">
 </span>
 
-## RN IDLE Charts
+## [RN IDLE Charts](https://htmlpreview.github.io/?https://github.com/jugshaurya/rn_vs_flutter/blob/main/RN_IDLE/Performance%20Profiler.html)
 
 <span>
 <img src = "./RN_IDLE/FPS.svg" width="300" height="300">
@@ -46,7 +46,7 @@
 <img src = "./RN_IDLE/RAMxUsagexxMBx.svg" width="300" height="300">
 </span>
 
-## RN With Interactivity Charts
+## [RN With Interactivity Charts](https://htmlpreview.github.io/?https://github.com/jugshaurya/rn_vs_flutter/blob/main/RN_interactivity/Performance%20Profiler.html)
 
 <span>
 <img src = "./RN_interactivity/FPS.svg" width="300" height="300">
