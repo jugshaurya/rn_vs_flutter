@@ -2,7 +2,7 @@
 
 - [https://medium.com/@shauryasinghal84/measuring-the-performance-of-react-native-apps](https://medium.com/@shauryasinghal84/measuring-the-performance-of-react-native-apps-77741b199ce7)
 
-## Comparison Table (Mean over 5 sample Tables below)
+## Comparison Table (Average over 5 sample Tables below)
 
 | Metric                                         | Flutter IDLE | Flutter with Interactivity | RN IDLE | RN with Interactivity |
 | ---------------------------------------------- | :----------- | :------------------------- | ------- | --------------------- |

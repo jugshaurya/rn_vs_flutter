@@ -1,0 +1,19 @@
+{
+  "name": "rn-vs-flutter",
+  "version": "1.0.0",
+  "description": "- [https://medium.com/@shauryasinghal84/measuring-the-performance-of-react-native-apps](https://medium.com/@shauryasinghal84/measuring-the-performance-of-react-native-apps-77741b199ce7)",
+  "main": "analyse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jugshaurya/rn_vs_flutter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jugshaurya/rn_vs_flutter/issues"
+  },
+  "homepage": "https://github.com/jugshaurya/rn_vs_flutter#readme"
+}
