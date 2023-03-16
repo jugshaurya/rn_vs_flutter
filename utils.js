@@ -1,23 +1,23 @@
 const getAverageFPS = (measures) => {
   const fps = measures.map((measure) => measure.fps);
   const total = fps.reduce((acc, val) => acc + val, 0);
-  return total / fps.length;
+  return (total / fps.length).toFixed(2);
 };
 
 const getLowestFPS = (measures) => {
   const fps = measures.map((measure) => measure.fps);
-  return Math.min(...fps);
+  return Math.min(...fps).toFixed(2);
 };
 
 const getAverageRAM = (measures) => {
   const ram = measures.map((measure) => measure.ram);
   const total = ram.reduce((acc, val) => acc + val, 0);
-  return total / ram.length;
+  return (total / ram.length).toFixed(2);
 };
 
 const getHighestRAM = (measures) => {
   const ram = measures.map((measure) => measure.ram);
-  return Math.max(...ram);
+  return Math.max(...ram).toFixed(2);
 };
 
 const convertObjToArray = (obj) =>
@@ -35,7 +35,7 @@ const getCPUUsage_allThreads_average = (measures) => {
 
   // Average
   const total = newMeasures.reduce((acc, val) => acc + val);
-  return total / newMeasures.length;
+  return (total / newMeasures.length).toFixed(2);
 };
 
 const getCPUUsage_allThreads_highest = (measures) => {
@@ -43,7 +43,7 @@ const getCPUUsage_allThreads_highest = (measures) => {
     getThreadsTotal(measure.cpu.perName)
   );
 
-  return Math.max(...newMeasures);
+  return Math.max(...newMeasures).toFixed(2);
 };
 
 // For RN
@@ -56,7 +56,7 @@ const getCPUUsage_UIThreads_highest = (measures) => {
     })
   );
 
-  return Math.max(...newMeasures);
+  return Math.max(...newMeasures).toFixed(2);
 };
 
 // For RN
@@ -69,7 +69,7 @@ const getCPUUsage_JSThreads_highest = (measures) => {
     })
   );
 
-  return Math.max(...newMeasures);
+  return Math.max(...newMeasures).toFixed(2);
 };
 
 // for flutter
@@ -83,7 +83,7 @@ const getCPUUsage_UIThreadsFlutter_highest = (measures) => {
     })
   );
 
-  return Math.max(...newMeasures);
+  return Math.max(...newMeasures).toFixed(2);
 };
 
 module.exports = {

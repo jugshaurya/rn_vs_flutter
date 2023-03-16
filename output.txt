@@ -1,0 +1,248 @@
+RN_IDLE Sample 1
+
+=====================
+Lowest FPS 40.00
+Average FPS 52.57
+Average RAM 213.23
+Highest RAM 254.88
+Average CPU(all thread) 27.51
+Highest CPU(all thread) 137.45
+Highest CPU(UI thread) 43.14
+Highest CPU(JS thread) NaN
+
+
+RN_IDLE Sample 2
+
+=====================
+Lowest FPS 50.10
+Average FPS 52.41
+Average RAM 272.58
+Highest RAM 273.78
+Average CPU(all thread) 16.03
+Highest CPU(all thread) 23.86
+Highest CPU(UI thread) 16.49
+Highest CPU(JS thread) 4.07
+
+
+RN_IDLE Sample 3
+
+=====================
+Lowest FPS 50.36
+Average FPS 52.15
+Average RAM 268.71
+Highest RAM 271.12
+Average CPU(all thread) 16.64
+Highest CPU(all thread) 24.24
+Highest CPU(UI thread) 16.06
+Highest CPU(JS thread) 4.05
+
+
+RN_IDLE Sample 4
+
+=====================
+Lowest FPS 50.40
+Average FPS 52.25
+Average RAM 261.35
+Highest RAM 265.38
+Average CPU(all thread) 16.51
+Highest CPU(all thread) 29.59
+Highest CPU(UI thread) 16.00
+Highest CPU(JS thread) 4.03
+
+
+RN_IDLE Sample 5
+
+=====================
+Lowest FPS 50.34
+Average FPS 52.34
+Average RAM 255.25
+Highest RAM 258.80
+Average CPU(all thread) 15.93
+Highest CPU(all thread) 25.90
+Highest CPU(UI thread) 16.10
+Highest CPU(JS thread) 4.09
+
+
+RN_INTERACTIVITY Sample 1
+
+=====================
+Lowest FPS 23.39
+Average FPS 44.89
+Average RAM 291.04
+Highest RAM 311.30
+Average CPU(all thread) 84.52
+Highest CPU(all thread) 204.72
+Highest CPU(UI thread) 70.87
+Highest CPU(JS thread) 117.53
+
+
+RN_INTERACTIVITY Sample 2
+
+=====================
+Lowest FPS 26.40
+Average FPS 41.90
+Average RAM 324.24
+Highest RAM 338.68
+Average CPU(all thread) 94.00
+Highest CPU(all thread) 210.84
+Highest CPU(UI thread) 75.85
+Highest CPU(JS thread) 117.53
+
+
+RN_INTERACTIVITY Sample 3
+
+=====================
+Lowest FPS 25.27
+Average FPS 44.07
+Average RAM 334.76
+Highest RAM 348.44
+Average CPU(all thread) 81.86
+Highest CPU(all thread) 182.00
+Highest CPU(UI thread) 71.86
+Highest CPU(JS thread) 113.77
+
+
+RN_INTERACTIVITY Sample 4
+
+=====================
+Lowest FPS 27.66
+Average FPS 42.77
+Average RAM 318.40
+Highest RAM 327.29
+Average CPU(all thread) 92.21
+Highest CPU(all thread) 183.63
+Highest CPU(UI thread) 67.86
+Highest CPU(JS thread) 111.33
+
+
+RN_INTERACTIVITY Sample 5
+
+=====================
+Lowest FPS 28.86
+Average FPS 43.73
+Average RAM 319.16
+Highest RAM 328.86
+Average CPU(all thread) 79.93
+Highest CPU(all thread) 174.60
+Highest CPU(UI thread) 69.31
+Highest CPU(JS thread) 107.14
+
+
+FLUTTER_IDLE Sample 1
+
+=====================
+Lowest FPS 60.00
+Average FPS 60.00
+Average RAM 242.47
+Highest RAM 245.74
+Average CPU(all thread) 0.03
+Highest CPU(all thread) 3.96
+Highest CPU(UI thread) 0.00
+
+
+FLUTTER_IDLE Sample 2
+
+=====================
+Lowest FPS 60.00
+Average FPS 60.00
+Average RAM 241.71
+Highest RAM 241.71
+Average CPU(all thread) 0.04
+Highest CPU(all thread) 1.99
+Highest CPU(UI thread) 0.00
+
+
+FLUTTER_IDLE Sample 3
+
+=====================
+Lowest FPS 60.00
+Average FPS 60.00
+Average RAM 240.51
+Highest RAM 241.70
+Average CPU(all thread) 0.05
+Highest CPU(all thread) 2.00
+Highest CPU(UI thread) 0.00
+
+
+FLUTTER_IDLE Sample 4
+
+=====================
+Lowest FPS 58.80
+Average FPS 59.98
+Average RAM 237.31
+Highest RAM 237.93
+Average CPU(all thread) 0.08
+Highest CPU(all thread) 1.99
+Highest CPU(UI thread) 1.99
+
+
+FLUTTER_IDLE Sample 5
+
+=====================
+Lowest FPS 60.00
+Average FPS 60.00
+Average RAM 236.87
+Highest RAM 236.87
+Average CPU(all thread) 0.04
+Highest CPU(all thread) 1.98
+Highest CPU(UI thread) 0.00
+
+
+FLUTTER_INTERACTIVITY Sample 1
+
+=====================
+Lowest FPS 12.10
+Average FPS 46.49
+Average RAM 257.47
+Highest RAM 279.54
+Average CPU(all thread) 39.39
+Highest CPU(all thread) 121.76
+Highest CPU(UI thread) 95.81
+
+
+FLUTTER_INTERACTIVITY Sample 2
+
+=====================
+Lowest FPS 32.34
+Average FPS 49.34
+Average RAM 268.13
+Highest RAM 271.66
+Average CPU(all thread) 35.93
+Highest CPU(all thread) 90.18
+Highest CPU(UI thread) 58.12
+
+
+FLUTTER_INTERACTIVITY Sample 3
+
+=====================
+Lowest FPS 36.24
+Average FPS 52.20
+Average RAM 269.18
+Highest RAM 273.03
+Average CPU(all thread) 25.88
+Highest CPU(all thread) 76.62
+Highest CPU(UI thread) 51.08
+
+
+FLUTTER_INTERACTIVITY Sample 4
+
+=====================
+Lowest FPS 37.29
+Average FPS 51.53
+Average RAM 270.35
+Highest RAM 273.16
+Average CPU(all thread) 27.81
+Highest CPU(all thread) 66.13
+Highest CPU(UI thread) 55.78
+
+
+FLUTTER_INTERACTIVITY Sample 5
+
+=====================
+Lowest FPS 31.14
+Average FPS 51.69
+Average RAM 272.25
+Highest RAM 275.78
+Average CPU(all thread) 26.32
+Highest CPU(all thread) 82.16
+Highest CPU(UI thread) 62.12
