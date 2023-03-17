@@ -4,15 +4,15 @@
 
 ## Comparison Table (Average over 5 sample Tables below)
 
-| Metric                                         | Flutter IDLE        | Flutter with Interactivity | RN IDLE                                          | RN with Interactivity                              |
-| ---------------------------------------------- | :------------------ | :------------------------- | ------------------------------------------------ | -------------------------------------------------- |
-| **Average FPS**                                | 59.996              | 50.25                      | 52.34                                            | 43.5                                               |
-| **Lowest FPS**                                 | 59.76               | 29.82                      | 48.23                                            | 26.3                                               |
-| **Average CPU usage <br/> (all threads)**      | 0.048               | 31.06%                     | 18.52 %                                          | 86.5%                                              |
-| **Highest CPU Usage <br/> (all threads)**      | 2.384 %             | 87.37%                     | 48.2 %                                           | 191.16 %                                           |
-| **Highest CPU Usage <br/> for UI(/JS) Thread** | 0.398 % (UI Thread) | 64.582%(UI Thread)         | 21.56%(for UI Thread) <br/> 4.06%(for JS Thread) | 71.15%(for UI Thread) <br/> 113.46%(for JS Thread) |
-| **Average RAM Usage**                          | 239.77MB            | 267.476MB                  | 254.2MB                                          | 317.5MB                                            |
-| **Highest RAM Usage**                          | 240.8MB             | 274.634                    | 264.8MB                                          | 330.9MB                                            |
+| Metric                                         | Flutter IDLE        | RN IDLE                                          | Flutter with Interactivity | RN with Interactivity                              |
+| ---------------------------------------------- | :------------------ | :----------------------------------------------- | -------------------------- | -------------------------------------------------- |
+| **Average FPS**                                | 59.996              | 52.34                                            | 50.25                      | 43.5                                               |
+| **Lowest FPS**                                 | 59.76               | 48.23                                            | 29.82                      | 26.3                                               |
+| **Average CPU usage <br/> (all threads)**      | 0.048 %             | 18.52 %                                          | 31.06%                     | 86.5%                                              |
+| **Highest CPU Usage <br/> (all threads)**      | 2.384 %             | 48.2 %                                           | 87.37%                     | 191.16 %                                           |
+| **Highest CPU Usage <br/> for UI(/JS) Thread** | 0.398 % (UI Thread) | 21.56%(for UI Thread) <br/> 4.06%(for JS Thread) | 64.582%(UI Thread)         | 71.15%(for UI Thread) <br/> 113.46%(for JS Thread) |
+| **Average RAM Usage**                          | 239.77 MB           | 254.2 MB                                         | 267.476 MB                 | 317.5 MB                                           |
+| **Highest RAM Usage**                          | 240.8 MB            | 264.8 MB                                         | 274.634 MB                 | 330.9 MB                                           |
 
 ## RN IDLE
 
