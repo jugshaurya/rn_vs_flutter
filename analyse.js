@@ -10,6 +10,7 @@ const {
   getCPUUsage_UIThreads_highest,
   getCPUUsage_JSThreads_highest,
   getCPUUsage_UIThreadsFlutter_highest,
+  getAverage,
 } = require("./utils");
 
 const RN_IDLE_SAMPLES = [
@@ -21,10 +22,16 @@ const RN_IDLE_SAMPLES = [
 ];
 
 const results = {
-  rn_idle: { total: {}, data: [] },
-  rn_interactivity: { total: {}, data: [] },
-  flutter_idle: { total: {}, data: [] },
-  flutter_interactivity: { total: {}, data: [] },
+  rn_idle: [],
+  rn_interactivity: [],
+  flutter_idle: [],
+  flutter_interactivity: [],
+  averages: {
+    rn_idle: {},
+    rn_interactivity: {},
+    flutter_idle: {},
+    flutter_interactivity: {},
+  },
 };
 
 RN_IDLE_SAMPLES.map((sample, i) => {
@@ -35,22 +42,22 @@ RN_IDLE_SAMPLES.map((sample, i) => {
   const obj = {
     "Average FPS": getAverageFPS(measures),
     "Lowest FPS": getLowestFPS(measures),
-    "Average CPU (all thread)": getCPUUsage_allThreads_average(measures),
-    "Highest CPU (all thread)": getCPUUsage_allThreads_highest(measures),
-    "Highest CPU (UI thread)": getCPUUsage_UIThreads_highest(measures),
-    "Highest CPU (JS thread)": getCPUUsage_JSThreads_highest(measures),
-    "Average RAM": getAverageRAM(measures),
-    "Highest RAM": getHighestRAM(measures),
+    "Average CPU (all thread)%": getCPUUsage_allThreads_average(measures),
+    "Highest CPU (all thread)%": getCPUUsage_allThreads_highest(measures),
+    "Highest CPU (UI thread)%": getCPUUsage_UIThreads_highest(measures),
+    "Highest CPU (JS thread)%": getCPUUsage_JSThreads_highest(measures),
+    "Average RAM (in MB)": getAverageRAM(measures),
+    "Highest RAM (in MB)": getHighestRAM(measures),
   };
 
-  results.rn_idle.data.push(obj);
+  results.rn_idle.push(obj);
 
   // console.log("RN_IDLE Sample", i + 1);
   // console.log("\n=====================");
   // console.log("Lowest FPS", getLowestFPS(measures));
   // console.log("Average FPS", getAverageFPS(measures));
-  // console.log("Average RAM", getAverageRAM(measures));
-  // console.log("Highest RAM", getHighestRAM(measures));
+  // console.log("Average RAM (in MB)", getAverageRAM(measures));
+  // console.log("Highest RAM (in MB)", getHighestRAM(measures));
   // console.log(
   //   "Average CPU(all thread)",
   //   getCPUUsage_allThreads_average(measures)
@@ -70,17 +77,7 @@ RN_IDLE_SAMPLES.map((sample, i) => {
   // console.log("\n");
 });
 
-const obj = {
-  "Average FPS": 10,
-  "Lowest FPS": 10,
-  "Average CPU (all thread)": 10,
-  "Highest CPU (all thread)": 10,
-  "Highest CPU (UI thread)": 10,
-  "Highest CPU (JS thread)": 10,
-  "Average RAM": 10,
-  "Highest RAM": 10,
-};
-results.rn_idle.total = obj;
+results.averages.rn_idle = getAverage(results.rn_idle);
 
 const RN_INTERACTIVITY_SAMPLES = [
   "./RN_interactivity/sample1/results_1678337407669.json",
@@ -98,22 +95,22 @@ RN_INTERACTIVITY_SAMPLES.map((sample, i) => {
   const obj = {
     "Average FPS": getAverageFPS(measures),
     "Lowest FPS": getLowestFPS(measures),
-    "Average CPU (all thread)": getCPUUsage_allThreads_average(measures),
-    "Highest CPU (all thread)": getCPUUsage_allThreads_highest(measures),
-    "Highest CPU (UI thread)": getCPUUsage_UIThreads_highest(measures),
-    "Highest CPU (JS thread)": getCPUUsage_JSThreads_highest(measures),
-    "Average RAM": getAverageRAM(measures),
-    "Highest RAM": getHighestRAM(measures),
+    "Average CPU (all thread)%": getCPUUsage_allThreads_average(measures),
+    "Highest CPU (all thread)%": getCPUUsage_allThreads_highest(measures),
+    "Highest CPU (UI thread)%": getCPUUsage_UIThreads_highest(measures),
+    "Highest CPU (JS thread)%": getCPUUsage_JSThreads_highest(measures),
+    "Average RAM (in MB)": getAverageRAM(measures),
+    "Highest RAM (in MB)": getHighestRAM(measures),
   };
 
-  results.rn_interactivity.data.push(obj);
+  results.rn_interactivity.push(obj);
 
   // console.log("RN_INTERACTIVITY Sample", i + 1);
   // console.log("\n=====================");
   // console.log("Lowest FPS", getLowestFPS(measures));
   // console.log("Average FPS", getAverageFPS(measures));
-  // console.log("Average RAM", getAverageRAM(measures));
-  // console.log("Highest RAM", getHighestRAM(measures));
+  // console.log("Average RAM (in MB)", getAverageRAM(measures));
+  // console.log("Highest RAM (in MB)", getHighestRAM(measures));
   // console.log(
   //   "Average CPU(all thread)",
   //   getCPUUsage_allThreads_average(measures)
@@ -133,6 +130,8 @@ RN_INTERACTIVITY_SAMPLES.map((sample, i) => {
   // console.log("\n");
 });
 
+results.averages.rn_interactivity = getAverage(results.rn_interactivity);
+
 const FLUTTER_IDLE_SAMPLES = [
   "./Flutter IDLE/sample1/results_1678957081784.json",
   "./Flutter IDLE/sample2/results_1678957141647.json",
@@ -148,21 +147,21 @@ FLUTTER_IDLE_SAMPLES.map((sample, i) => {
   const obj = {
     "Average FPS": getAverageFPS(measures),
     "Lowest FPS": getLowestFPS(measures),
-    "Average CPU (all thread)": getCPUUsage_allThreads_average(measures),
-    "Highest CPU (all thread)": getCPUUsage_allThreads_highest(measures),
-    "Highest CPU(UI thread)": getCPUUsage_UIThreadsFlutter_highest(measures),
-    "Average RAM": getAverageRAM(measures),
-    "Highest RAM": getHighestRAM(measures),
+    "Average CPU (all thread)%": getCPUUsage_allThreads_average(measures),
+    "Highest CPU (all thread)%": getCPUUsage_allThreads_highest(measures),
+    "Highest CPU (UI thread)%": getCPUUsage_UIThreadsFlutter_highest(measures),
+    "Average RAM (in MB)": getAverageRAM(measures),
+    "Highest RAM (in MB)": getHighestRAM(measures),
   };
 
-  results.flutter_idle.data.push(obj);
+  results.flutter_idle.push(obj);
 
   // console.log("FLUTTER_IDLE Sample", i + 1);
   // console.log("\n=====================");
   // console.log("Lowest FPS", getLowestFPS(measures));
   // console.log("Average FPS", getAverageFPS(measures));
-  // console.log("Average RAM", getAverageRAM(measures));
-  // console.log("Highest RAM", getHighestRAM(measures));
+  // console.log("Average RAM (in MB)", getAverageRAM(measures));
+  // console.log("Highest RAM (in MB)", getHighestRAM(measures));
   // console.log(
   //   "Average CPU(all thread)",
   //   getCPUUsage_allThreads_average(measures)
@@ -177,6 +176,8 @@ FLUTTER_IDLE_SAMPLES.map((sample, i) => {
   // );
   // console.log("\n");
 });
+
+results.averages.flutter_idle = getAverage(results.flutter_idle);
 
 const FLUTTER_INTERACTIVITY_SAMPLES = [
   "./Flutter_interactivity/sample1/results_1678957430495.json",
@@ -193,21 +194,21 @@ FLUTTER_INTERACTIVITY_SAMPLES.map((sample, i) => {
   const obj = {
     "Average FPS": getAverageFPS(measures),
     "Lowest FPS": getLowestFPS(measures),
-    "Average CPU (all thread)": getCPUUsage_allThreads_average(measures),
-    "Highest CPU (all thread)": getCPUUsage_allThreads_highest(measures),
-    "Highest CPU(UI thread)": getCPUUsage_UIThreadsFlutter_highest(measures),
-    "Average RAM": getAverageRAM(measures),
-    "Highest RAM": getHighestRAM(measures),
+    "Average CPU (all thread)%": getCPUUsage_allThreads_average(measures),
+    "Highest CPU (all thread)%": getCPUUsage_allThreads_highest(measures),
+    "Highest CPU (UI thread)%": getCPUUsage_UIThreadsFlutter_highest(measures),
+    "Average RAM (in MB)": getAverageRAM(measures),
+    "Highest RAM (in MB)": getHighestRAM(measures),
   };
 
-  results.flutter_interactivity.data.push(obj);
+  results.flutter_interactivity.push(obj);
 
   // console.log("FLUTTER_INTERACTIVITY Sample", i + 1);
   // console.log("\n=====================");
   // console.log("Lowest FPS", getLowestFPS(measures));
   // console.log("Average FPS", getAverageFPS(measures));
-  // console.log("Average RAM", getAverageRAM(measures));
-  // console.log("Highest RAM", getHighestRAM(measures));
+  // console.log("Average RAM (in MB)", getAverageRAM(measures));
+  // console.log("Highest RAM (in MB)", getHighestRAM(measures));
   // console.log(
   //   "Average CPU(all thread)",
   //   getCPUUsage_allThreads_average(measures)
@@ -223,7 +224,10 @@ FLUTTER_INTERACTIVITY_SAMPLES.map((sample, i) => {
   // console.log("\n");
 });
 
+results.averages.flutter_interactivity = getAverage(
+  results.flutter_interactivity
+);
+
 // paste this json to
 // http://json2table.com/#
-
 console.log(JSON.stringify(results));

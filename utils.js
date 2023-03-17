@@ -86,6 +86,22 @@ const getCPUUsage_UIThreadsFlutter_highest = (measures) => {
   return Math.max(...newMeasures).toFixed(2);
 };
 
+const getAverage = (arrOfObj) => {
+  var result = arrOfObj.reduce((acc, obj) => {
+    Object.keys(obj).forEach((key) => {
+      // check if it's a number
+      if (!isNaN(parseFloat(obj[key]))) {
+        acc[key] = acc[key] || { sum: 0, count: 0, avg: 0 };
+        acc[key].sum += Number(obj[key]);
+        acc[key].count++;
+        acc[key].avg = acc[key].sum / acc[key].count;
+      }
+    });
+    return acc;
+  }, {});
+
+  return result;
+};
 module.exports = {
   getAverageFPS,
   getLowestFPS,
@@ -96,4 +112,5 @@ module.exports = {
   getCPUUsage_UIThreads_highest,
   getCPUUsage_JSThreads_highest,
   getCPUUsage_UIThreadsFlutter_highest,
+  getAverage,
 };
