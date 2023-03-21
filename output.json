@@ -1,0 +1,538 @@
+{
+  "flutter_idle": [
+    {
+      "Average FPS": "60.00",
+      "Lowest FPS": "60.00",
+      "Average CPU (all thread)%": "0.03",
+      "Highest CPU (all thread)%": "3.96",
+      "Highest CPU (UI thread)%": "0.00",
+      "Average RAM (in MB)": "242.47",
+      "Highest RAM (in MB)": "245.74"
+    },
+    {
+      "Average FPS": "60.00",
+      "Lowest FPS": "60.00",
+      "Average CPU (all thread)%": "0.04",
+      "Highest CPU (all thread)%": "1.99",
+      "Highest CPU (UI thread)%": "0.00",
+      "Average RAM (in MB)": "241.71",
+      "Highest RAM (in MB)": "241.71"
+    },
+    {
+      "Average FPS": "60.00",
+      "Lowest FPS": "60.00",
+      "Average CPU (all thread)%": "0.05",
+      "Highest CPU (all thread)%": "2.00",
+      "Highest CPU (UI thread)%": "0.00",
+      "Average RAM (in MB)": "240.51",
+      "Highest RAM (in MB)": "241.70"
+    },
+    {
+      "Average FPS": "59.98",
+      "Lowest FPS": "58.80",
+      "Average CPU (all thread)%": "0.08",
+      "Highest CPU (all thread)%": "1.99",
+      "Highest CPU (UI thread)%": "1.99",
+      "Average RAM (in MB)": "237.31",
+      "Highest RAM (in MB)": "237.93"
+    },
+    {
+      "Average FPS": "60.00",
+      "Lowest FPS": "60.00",
+      "Average CPU (all thread)%": "0.04",
+      "Highest CPU (all thread)%": "1.98",
+      "Highest CPU (UI thread)%": "0.00",
+      "Average RAM (in MB)": "236.87",
+      "Highest RAM (in MB)": "236.87"
+    }
+  ],
+  "rn_idle": [
+    {
+      "Average FPS": "52.57",
+      "Lowest FPS": "40.00",
+      "Average CPU (all thread)%": "27.51",
+      "Highest CPU (all thread)%": "137.45",
+      "Highest CPU (UI thread)%": "43.14",
+      "Highest CPU (JS thread)%": "NaN",
+      "Average RAM (in MB)": "213.23",
+      "Highest RAM (in MB)": "254.88"
+    },
+    {
+      "Average FPS": "52.41",
+      "Lowest FPS": "50.10",
+      "Average CPU (all thread)%": "16.03",
+      "Highest CPU (all thread)%": "23.86",
+      "Highest CPU (UI thread)%": "16.49",
+      "Highest CPU (JS thread)%": "4.07",
+      "Average RAM (in MB)": "272.58",
+      "Highest RAM (in MB)": "273.78"
+    },
+    {
+      "Average FPS": "52.15",
+      "Lowest FPS": "50.36",
+      "Average CPU (all thread)%": "16.64",
+      "Highest CPU (all thread)%": "24.24",
+      "Highest CPU (UI thread)%": "16.06",
+      "Highest CPU (JS thread)%": "4.05",
+      "Average RAM (in MB)": "268.71",
+      "Highest RAM (in MB)": "271.12"
+    },
+    {
+      "Average FPS": "52.25",
+      "Lowest FPS": "50.40",
+      "Average CPU (all thread)%": "16.51",
+      "Highest CPU (all thread)%": "29.59",
+      "Highest CPU (UI thread)%": "16.00",
+      "Highest CPU (JS thread)%": "4.03",
+      "Average RAM (in MB)": "261.35",
+      "Highest RAM (in MB)": "265.38"
+    },
+    {
+      "Average FPS": "52.34",
+      "Lowest FPS": "50.34",
+      "Average CPU (all thread)%": "15.93",
+      "Highest CPU (all thread)%": "25.90",
+      "Highest CPU (UI thread)%": "16.10",
+      "Highest CPU (JS thread)%": "4.09",
+      "Average RAM (in MB)": "255.25",
+      "Highest RAM (in MB)": "258.80"
+    }
+  ],
+  "flutter_interactivity": [
+    {
+      "Average FPS": "46.49",
+      "Lowest FPS": "12.10",
+      "Average CPU (all thread)%": "39.39",
+      "Highest CPU (all thread)%": "121.76",
+      "Highest CPU (UI thread)%": "95.81",
+      "Average RAM (in MB)": "257.47",
+      "Highest RAM (in MB)": "279.54"
+    },
+    {
+      "Average FPS": "49.34",
+      "Lowest FPS": "32.34",
+      "Average CPU (all thread)%": "35.93",
+      "Highest CPU (all thread)%": "90.18",
+      "Highest CPU (UI thread)%": "58.12",
+      "Average RAM (in MB)": "268.13",
+      "Highest RAM (in MB)": "271.66"
+    },
+    {
+      "Average FPS": "52.20",
+      "Lowest FPS": "36.24",
+      "Average CPU (all thread)%": "25.88",
+      "Highest CPU (all thread)%": "76.62",
+      "Highest CPU (UI thread)%": "51.08",
+      "Average RAM (in MB)": "269.18",
+      "Highest RAM (in MB)": "273.03"
+    },
+    {
+      "Average FPS": "51.53",
+      "Lowest FPS": "37.29",
+      "Average CPU (all thread)%": "27.81",
+      "Highest CPU (all thread)%": "66.13",
+      "Highest CPU (UI thread)%": "55.78",
+      "Average RAM (in MB)": "270.35",
+      "Highest RAM (in MB)": "273.16"
+    },
+    {
+      "Average FPS": "51.69",
+      "Lowest FPS": "31.14",
+      "Average CPU (all thread)%": "26.32",
+      "Highest CPU (all thread)%": "82.16",
+      "Highest CPU (UI thread)%": "62.12",
+      "Average RAM (in MB)": "272.25",
+      "Highest RAM (in MB)": "275.78"
+    }
+  ],
+  "rn_interactivity": [
+    {
+      "Average FPS": "44.89",
+      "Lowest FPS": "23.39",
+      "Average CPU (all thread)%": "84.52",
+      "Highest CPU (all thread)%": "204.72",
+      "Highest CPU (UI thread)%": "70.87",
+      "Highest CPU (JS thread)%": "117.53",
+      "Average RAM (in MB)": "291.04",
+      "Highest RAM (in MB)": "311.30"
+    },
+    {
+      "Average FPS": "41.90",
+      "Lowest FPS": "26.40",
+      "Average CPU (all thread)%": "94.00",
+      "Highest CPU (all thread)%": "210.84",
+      "Highest CPU (UI thread)%": "75.85",
+      "Highest CPU (JS thread)%": "117.53",
+      "Average RAM (in MB)": "324.24",
+      "Highest RAM (in MB)": "338.68"
+    },
+    {
+      "Average FPS": "44.07",
+      "Lowest FPS": "25.27",
+      "Average CPU (all thread)%": "81.86",
+      "Highest CPU (all thread)%": "182.00",
+      "Highest CPU (UI thread)%": "71.86",
+      "Highest CPU (JS thread)%": "113.77",
+      "Average RAM (in MB)": "334.76",
+      "Highest RAM (in MB)": "348.44"
+    },
+    {
+      "Average FPS": "42.77",
+      "Lowest FPS": "27.66",
+      "Average CPU (all thread)%": "92.21",
+      "Highest CPU (all thread)%": "183.63",
+      "Highest CPU (UI thread)%": "67.86",
+      "Highest CPU (JS thread)%": "111.33",
+      "Average RAM (in MB)": "318.40",
+      "Highest RAM (in MB)": "327.29"
+    },
+    {
+      "Average FPS": "43.73",
+      "Lowest FPS": "28.86",
+      "Average CPU (all thread)%": "79.93",
+      "Highest CPU (all thread)%": "174.60",
+      "Highest CPU (UI thread)%": "69.31",
+      "Highest CPU (JS thread)%": "107.14",
+      "Average RAM (in MB)": "319.16",
+      "Highest RAM (in MB)": "328.86"
+    }
+  ],
+  "flutter_interactivity_complete": [
+    {
+      "Average FPS": "47.22",
+      "Lowest FPS": "18.00",
+      "Average CPU (all thread)%": "37.35",
+      "Highest CPU (all thread)%": "152.00",
+      "Highest CPU (UI thread)%": "88.00",
+      "Average RAM (in MB)": "272.06",
+      "Highest RAM (in MB)": "287.31"
+    },
+    {
+      "Average FPS": "50.89",
+      "Lowest FPS": "25.06",
+      "Average CPU (all thread)%": "30.41",
+      "Highest CPU (all thread)%": "116.47",
+      "Highest CPU (UI thread)%": "70.28",
+      "Average RAM (in MB)": "287.70",
+      "Highest RAM (in MB)": "305.64"
+    },
+    {
+      "Average FPS": "50.00",
+      "Lowest FPS": "30.18",
+      "Average CPU (all thread)%": "31.26",
+      "Highest CPU (all thread)%": "85.49",
+      "Highest CPU (UI thread)%": "59.64",
+      "Average RAM (in MB)": "288.54",
+      "Highest RAM (in MB)": "295.28"
+    },
+    {
+      "Average FPS": "50.79",
+      "Lowest FPS": "34.75",
+      "Average CPU (all thread)%": "29.20",
+      "Highest CPU (all thread)%": "80.16",
+      "Highest CPU (UI thread)%": "56.53",
+      "Average RAM (in MB)": "292.60",
+      "Highest RAM (in MB)": "296.43"
+    },
+    {
+      "Average FPS": "51.42",
+      "Lowest FPS": "31.89",
+      "Average CPU (all thread)%": "28.41",
+      "Highest CPU (all thread)%": "85.54",
+      "Highest CPU (UI thread)%": "65.17",
+      "Average RAM (in MB)": "293.61",
+      "Highest RAM (in MB)": "302.45"
+    }
+  ],
+  "rn_interactivity_complete": [
+    {
+      "Average FPS": "47.47",
+      "Lowest FPS": "24.85",
+      "Average CPU (all thread)%": "49.98",
+      "Highest CPU (all thread)%": "205.23",
+      "Highest CPU (UI thread)%": "76.46",
+      "Highest CPU (JS thread)%": "116.70",
+      "Average RAM (in MB)": "300.30",
+      "Highest RAM (in MB)": "309.57"
+    },
+    {
+      "Average FPS": "48.74",
+      "Lowest FPS": "37.47",
+      "Average CPU (all thread)%": "44.81",
+      "Highest CPU (all thread)%": "155.07",
+      "Highest CPU (UI thread)%": "51.49",
+      "Highest CPU (JS thread)%": "105.37",
+      "Average RAM (in MB)": "309.46",
+      "Highest RAM (in MB)": "314.95"
+    },
+    {
+      "Average FPS": "48.36",
+      "Lowest FPS": "26.33",
+      "Average CPU (all thread)%": "45.60",
+      "Highest CPU (all thread)%": "192.38",
+      "Highest CPU (UI thread)%": "74.15",
+      "Highest CPU (JS thread)%": "110.22",
+      "Average RAM (in MB)": "310.09",
+      "Highest RAM (in MB)": "313.59"
+    },
+    {
+      "Average FPS": "47.70",
+      "Lowest FPS": "32.51",
+      "Average CPU (all thread)%": "52.33",
+      "Highest CPU (all thread)%": "201.20",
+      "Highest CPU (UI thread)%": "59.76",
+      "Highest CPU (JS thread)%": "111.55",
+      "Average RAM (in MB)": "309.45",
+      "Highest RAM (in MB)": "313.68"
+    },
+    {
+      "Average FPS": "47.62",
+      "Lowest FPS": "30.30",
+      "Average CPU (all thread)%": "52.06",
+      "Highest CPU (all thread)%": "178.36",
+      "Highest CPU (UI thread)%": "61.39",
+      "Highest CPU (JS thread)%": "121.09",
+      "Average RAM (in MB)": "318.61",
+      "Highest RAM (in MB)": "324.31"
+    }
+  ],
+  "averages": {
+    "flutter_idle": {
+      "Average FPS": {
+        "sum": 299.98,
+        "count": 5,
+        "avg": 59.996
+      },
+      "Lowest FPS": {
+        "sum": 298.8,
+        "count": 5,
+        "avg": 59.760000000000005
+      },
+      "Average CPU (all thread)%": {
+        "sum": 0.24000000000000002,
+        "count": 5,
+        "avg": 0.048
+      },
+      "Highest CPU (all thread)%": {
+        "sum": 11.92,
+        "count": 5,
+        "avg": 2.384
+      },
+      "Highest CPU (UI thread)%": {
+        "sum": 1.99,
+        "count": 5,
+        "avg": 0.398
+      },
+      "Average RAM (in MB)": {
+        "sum": 1198.87,
+        "count": 5,
+        "avg": 239.77399999999997
+      },
+      "Highest RAM (in MB)": {
+        "sum": 1203.9500000000003,
+        "count": 5,
+        "avg": 240.79000000000005
+      }
+    },
+    "rn_idle": {
+      "Average FPS": {
+        "sum": 261.72,
+        "count": 5,
+        "avg": 52.34400000000001
+      },
+      "Lowest FPS": {
+        "sum": 241.2,
+        "count": 5,
+        "avg": 48.239999999999995
+      },
+      "Average CPU (all thread)%": {
+        "sum": 92.62,
+        "count": 5,
+        "avg": 18.524
+      },
+      "Highest CPU (all thread)%": {
+        "sum": 241.04000000000002,
+        "count": 5,
+        "avg": 48.208000000000006
+      },
+      "Highest CPU (UI thread)%": {
+        "sum": 107.78999999999999,
+        "count": 5,
+        "avg": 21.558
+      },
+      "Average RAM (in MB)": {
+        "sum": 1271.12,
+        "count": 5,
+        "avg": 254.224
+      },
+      "Highest RAM (in MB)": {
+        "sum": 1323.9599999999998,
+        "count": 5,
+        "avg": 264.792
+      },
+      "Highest CPU (JS thread)%": {
+        "sum": 16.240000000000002,
+        "count": 4,
+        "avg": 4.0600000000000005
+      }
+    },
+    "flutter_interactivity": {
+      "Average FPS": {
+        "sum": 251.25000000000003,
+        "count": 5,
+        "avg": 50.25000000000001
+      },
+      "Lowest FPS": {
+        "sum": 149.11,
+        "count": 5,
+        "avg": 29.822000000000003
+      },
+      "Average CPU (all thread)%": {
+        "sum": 155.32999999999998,
+        "count": 5,
+        "avg": 31.065999999999995
+      },
+      "Highest CPU (all thread)%": {
+        "sum": 436.85,
+        "count": 5,
+        "avg": 87.37
+      },
+      "Highest CPU (UI thread)%": {
+        "sum": 322.90999999999997,
+        "count": 5,
+        "avg": 64.582
+      },
+      "Average RAM (in MB)": {
+        "sum": 1337.38,
+        "count": 5,
+        "avg": 267.476
+      },
+      "Highest RAM (in MB)": {
+        "sum": 1373.17,
+        "count": 5,
+        "avg": 274.634
+      }
+    },
+    "rn_interactivity": {
+      "Average FPS": {
+        "sum": 217.35999999999999,
+        "count": 5,
+        "avg": 43.471999999999994
+      },
+      "Lowest FPS": {
+        "sum": 131.57999999999998,
+        "count": 5,
+        "avg": 26.315999999999995
+      },
+      "Average CPU (all thread)%": {
+        "sum": 432.52,
+        "count": 5,
+        "avg": 86.50399999999999
+      },
+      "Highest CPU (all thread)%": {
+        "sum": 955.79,
+        "count": 5,
+        "avg": 191.158
+      },
+      "Highest CPU (UI thread)%": {
+        "sum": 355.75,
+        "count": 5,
+        "avg": 71.15
+      },
+      "Highest CPU (JS thread)%": {
+        "sum": 567.3,
+        "count": 5,
+        "avg": 113.46
+      },
+      "Average RAM (in MB)": {
+        "sum": 1587.6000000000001,
+        "count": 5,
+        "avg": 317.52000000000004
+      },
+      "Highest RAM (in MB)": {
+        "sum": 1654.5700000000002,
+        "count": 5,
+        "avg": 330.91400000000004
+      }
+    },
+    "flutter_interactivity_complete": {
+      "Average FPS": {
+        "sum": 250.32,
+        "count": 5,
+        "avg": 50.064
+      },
+      "Lowest FPS": {
+        "sum": 139.88,
+        "count": 5,
+        "avg": 27.976
+      },
+      "Average CPU (all thread)%": {
+        "sum": 156.63,
+        "count": 5,
+        "avg": 31.326
+      },
+      "Highest CPU (all thread)%": {
+        "sum": 519.66,
+        "count": 5,
+        "avg": 103.93199999999999
+      },
+      "Highest CPU (UI thread)%": {
+        "sum": 339.62000000000006,
+        "count": 5,
+        "avg": 67.924
+      },
+      "Average RAM (in MB)": {
+        "sum": 1434.5100000000002,
+        "count": 5,
+        "avg": 286.90200000000004
+      },
+      "Highest RAM (in MB)": {
+        "sum": 1487.1100000000001,
+        "count": 5,
+        "avg": 297.422
+      }
+    },
+    "rn_interactivity_complete": {
+      "Average FPS": {
+        "sum": 239.89,
+        "count": 5,
+        "avg": 47.977999999999994
+      },
+      "Lowest FPS": {
+        "sum": 151.46,
+        "count": 5,
+        "avg": 30.292
+      },
+      "Average CPU (all thread)%": {
+        "sum": 244.77999999999997,
+        "count": 5,
+        "avg": 48.955999999999996
+      },
+      "Highest CPU (all thread)%": {
+        "sum": 932.2399999999999,
+        "count": 5,
+        "avg": 186.44799999999998
+      },
+      "Highest CPU (UI thread)%": {
+        "sum": 323.25,
+        "count": 5,
+        "avg": 64.65
+      },
+      "Highest CPU (JS thread)%": {
+        "sum": 564.93,
+        "count": 5,
+        "avg": 112.98599999999999
+      },
+      "Average RAM (in MB)": {
+        "sum": 1547.9099999999999,
+        "count": 5,
+        "avg": 309.582
+      },
+      "Highest RAM (in MB)": {
+        "sum": 1576.1,
+        "count": 5,
+        "avg": 315.21999999999997
+      }
+    }
+  }
+}
