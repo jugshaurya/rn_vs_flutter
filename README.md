@@ -34,7 +34,7 @@
 | IV     | 52.25       | 50.40      | 16.51                     | 29.59                     | 16.00                    | 4.03                     | 261.35              | 265.38              |
 | V      | 52.34       | 50.34      | 15.93                     | 25.90                     | 16.10                    | 4.09                     | 255.25              | 258.80              |
 
-## Flutter Interactivity
+## Flutter Interactivity (only Dropdown)
 
 | Sample | Average FPS | Lowest FPS | Average CPU (all thread)% | Highest CPU (all thread)% | Highest CPU (UI thread)% | Average RAM (in MB) | Highest RAM (in MB) |
 | :----- | :---------- | :--------- | :------------------------ | :------------------------ | :----------------------- | :------------------ | :------------------ |
@@ -44,7 +44,7 @@
 | IV     | 51.53       | 37.29      | 27.81                     | 66.13                     | 55.78                    | 270.35              | 273.16              |
 | V      | 51.69       | 31.14      | 26.32                     | 82.16                     | 62.12                    | 272.25              | 275. 78             |
 
-## RN Interactivity
+## RN Interactivity (only Dropdown)
 
 | Sample | Average FPS | Lowest FPS | Average CPU (all thread)% | Highest CPU (all thread)% | Highest CPU (UI thread)% | Highest CPU (JS thread)% | Average RAM (in MB) | Highest RAM (in MB) |
 | :----- | :---------- | :--------- | :------------------------ | :------------------------ | :----------------------- | :----------------------- | :------------------ | :------------------ |
@@ -54,53 +54,33 @@
 | IV     | 42.77       | 27.66      | 92.21                     | 183.63                    | 67.86                    | 111.33                   | 318.40              | 327.29              |
 | V      | 43.73       | 28.86      | 79.93                     | 174.60                    | 69.31                    | 107.14                   | 319.16              | 328.86              |
 
-<!-- ## 🔗 [Flutter IDLE Charts](https://htmlpreview.github.io/?https://github.com/jugshaurya/rn_vs_flutter/blob/main/Flutter%20IDLE/Performance%20Profiler.html)
+## Flutter Interactivity (Dropdown + Suggestor)
 
-<span>
-<img src="./Flutter%20IDLE/FPS.svg" width="300" height="300">
-<img src = "./Flutter%20IDLE/TotalxCPUxUsagexxxx.svg" width="300" height="300">
-</span>
-<br/>
-<span>
-<img src = "./Flutter%20IDLE/CPUxUsagexperxthreadxxxx.svg" width="300" height="300">
-<img src = "./Flutter%20IDLE/RAMxUsagexx MBx.svg" width="300" height="300">
-</span>
+| Sample | Average FPS | Lowest FPS | Average CPU (all thread)% | Highest CPU (all thread)% | Highest CPU (UI thread)% | Average RAM (in MB) | Highest RAM (in MB) |
+| :----- | :---------- | :--------- | :------------------------ | :------------------------ | :----------------------- | :------------------ | :------------------ |
+| I      | 47.22       | 18.00      | 37.35                     | 152.00                    | 88.00                    | 272.06              | 287.31              |
+| II     | 50.89       | 25.06      | 30.41                     | 116.47                    | 70.28                    | 287.70              | 305.64              |
+| III    | 50.00       | 30.18      | 31.26                     | 85.49                     | 59.64                    | 288.54              | 295.28              |
+| IV     | 50.79       | 34.75      | 29.20                     | 80.16                     | 56.53                    | 292.60              | 296.43              |
+| V      | 51.42       | 31.89      | 28.41                     | 85.54                     | 65.17                    | 293.61              | 302.45              |
 
-## 🔗 [Flutter With Interactivity Charts](https://htmlpreview.github.io/?https://github.com/jugshaurya/rn_vs_flutter/blob/main/Flutter_interactivity/Performance%20Profiler.html)
+## RN Interactivity (Dropdown + Suggestor)
 
-<span>
-<img src="./Flutter_interactivity/FPS.svg" width="300" height="300">
-<img src = "./Flutter_interactivity/TotalxCPUxUsagexxxx.svg" width="300" height="300">
-</span>
-<br/>
-<span>
-<img src = "./Flutter_interactivity/CPUxUsagexperxthreadxxxx.svg" width="300" height="300">
-<img src = "./Flutter_interactivity/RAMxUsagexx MBx.svg" width="300" height="300">
-</span>
+| Sample | Average FPS | Lowest FPS | Average CPU (all thread)% | Highest CPU (all thread)% | Highest CPU (UI thread)% | Highest CPU (JS thread)% | Average RAM (in MB) | Highest RAM (in MB) |
+| :----- | :---------- | :--------- | :------------------------ | :------------------------ | :----------------------- | :----------------------- | :------------------ | :------------------ |
+| I      | 47.47       | 24.85      | 49.98                     | 205.23                    | 76.46                    | 116.70                   | 300.30              | 309.57              |
+| II     | 48.74       | 37.47      | 44.81                     | 155.07                    | 51.49                    | 105.37                   | 309.46              | 314.95              |
+| III    | 48.36       | 26.33      | 45.60                     | 192.38                    | 74.15                    | 110.22                   | 310.09              | 313.59              |
+| IV     | 47.70       | 32.51      | 52.33                     | 201.20                    | 59.76                    | 111.55                   | 309.45              | 313.68              |
+| V      | 47.62       | 30.30      | 52.06                     | 178.36                    | 61.39                    | 121.09                   | 318.61              | 324.31              |
 
-## 🔗 [RN IDLE Charts](https://htmlpreview.github.io/?https://github.com/jugshaurya/rn_vs_flutter/blob/main/RN_IDLE/Performance%20Profiler.html)
+## Charts generated by flashlight
 
-<span>
-<img src = "./RN_IDLE/FPS.svg" width="300" height="300">
-<img src = "./RN_IDLE/TotalxCPUxUsagexxxx.svg" width="300" height="300">
-</span>
-<br/>
-<span>
-<img src = "./RN_IDLE/CPUxUsagexperxthreadxxxx.svg" width="300" height="300">
-<img src = "./RN_IDLE/RAMxUsagexx MBx.svg" width="300" height="300">
-</span>
-
-## 🔗 [RN With Interactivity Charts](https://htmlpreview.github.io/?https://github.com/jugshaurya/rn_vs_flutter/blob/main/RN_interactivity/Performance%20Profiler.html)
-
-<span>
-<img src = "./RN_interactivity/FPS.svg" width="300" height="300">
-<img src = "./RN_interactivity/TotalxCPUxUsagexxxx.svg" width="300" height="300">
-</span>
-<br/>
-<span>
-<img src = "./RN_interactivity/CPUxUsagexperxthreadxxxx.svg" width="300" height="300">
-<img src = "./RN_interactivity/RAMxUsagexx MBx.svg" width="300" height="300">
-</span> -->
+<img src="./Flutter_interactivity_complete/sample1/FPS.svg">
+<img src="./Flutter_interactivity_complete/sample1/TotalxCPUxUsagexxxx.svg">
+<img src="./Flutter_interactivity_complete/sample1/CPUxUsagexperxthreadxxxx.svg">
+<img src="./react_interactivity_complete/sample1/CPUxUsagexperxthreadxxxx.svg">
+<img src = "./Flutter_interactivity_complete/sample1/RAMxUsagexxMBx.svg">
 
 ## Links
 
