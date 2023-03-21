@@ -14,6 +14,17 @@
 | **Average RAM Usage**                          | 239.77 MB          | 254.2 MB                                                    | 286.9 MB                                              | 309.58 MB                                                     | 267.476 MB                                       | 317.5 MB                                                      |
 | **Highest RAM Usage**                          | 240.8 MB           | 264.8 MB                                                    | 297.4 MB                                              | 315.22 MB                                                     | 274.634 MB                                       | 330.9 MB                                                      |
 
+## Above Table Charts for comparison
+
+<img src="./images/newplot.png">
+<img src="./images/newplot_1.png">
+<img src="./images/newplot_2.png">
+<img src="./images/newplot_3.png">
+<img src="./images/newplot_4.png">
+<img src="./images/newplot_5.png">
+<img src="./images/newplot_6.png">
+<img src="./images/newplot_7.png">
+
 ## Flutter IDLE
 
 | Sample | Average FPS | Lowest FPS | Average CPU (all thread)% | Highest CPU (all thread)% | Highest CPU (UI thread)% | Average RAM (in MB) | Highest RAM (in MB) |

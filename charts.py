@@ -31,7 +31,11 @@ for key in data["averages"]:
 
 print(content)
 
+import matplotlib.pyplot as plt
 import plotly.graph_objects as go
+import os
+if not os.path.exists("images"):
+    os.mkdir("images")
 
 colors = ["#ED4974", "#8958D3", "#16B9E1","#58DE7B", "#F0D864","#FF8057"] 
 
@@ -48,6 +52,7 @@ for key in content:
 
     # fig = px.bar(y=content[key] , x=scenarios, title=key, color="red")
     fig.show()
+    # fig.write_image("/images/" + key + ".png")
   else:
     fig = go.Figure(data=[go.Bar(
         x=only_react_scenarios,
