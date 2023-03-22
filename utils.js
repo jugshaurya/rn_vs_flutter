@@ -1,3 +1,4 @@
+/* */
 const getAverageFPS = (measures) => {
   const fps = measures.map((measure) => measure.fps);
   const total = fps.reduce((acc, val) => acc + val, 0);

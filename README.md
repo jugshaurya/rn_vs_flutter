@@ -2,7 +2,7 @@
 
 - [https://medium.com/@shauryasinghal84](https://medium.com/@shauryasinghal84/measuring-the-performance-of-react-native-apps-77741b199ce7)
 
-## Comparison Table (Average over 5 sample Tables below)
+## 🥂 Comparison Table (Average over 5 sample Tables below)
 
 | Metric                                         | Flutter IDLE       | RN IDLE                                                     | Flutter with Interactivity<br/>(Dropdown + Suggestor) | RN with Interactivity<br/>(Dropdown + Suggestor)              | Flutter with Interactivity <br/> (only Dropdown) | RN with Interactivity <br/> (only Dropdown)                   |
 | ---------------------------------------------- | :----------------- | :---------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------- |
@@ -14,7 +14,7 @@
 | **Average RAM Usage**                          | 239.77 MB          | 254.2 MB                                                    | 286.9 MB                                              | 309.58 MB                                                     | 267.476 MB                                       | 317.5 MB                                                      |
 | **Highest RAM Usage**                          | 240.8 MB           | 264.8 MB                                                    | 297.4 MB                                              | 315.22 MB                                                     | 274.634 MB                                       | 330.9 MB                                                      |
 
-## Above Table Charts for comparison
+## 🥂 Above Table Charts for comparison
 
 <img src="./images/newplot.png">
 <img src="./images/newplot_1.png">
@@ -25,7 +25,7 @@
 <img src="./images/newplot_6.png">
 <img src="./images/newplot_7.png">
 
-## Flutter IDLE
+## 🥂 Flutter IDLE
 
 | Sample | Average FPS | Lowest FPS | Average CPU (all thread)% | Highest CPU (all thread)% | Highest CPU (UI thread)% | Average RAM (in MB) | Highest RAM (in MB) |
 | :----- | :---------- | :--------- | :------------------------ | :------------------------ | :----------------------- | :------------------ | :------------------ |
@@ -35,7 +35,7 @@
 | IV     | 59.98       | 58.80      | 0.08                      | 1.99                      | 1.99                     | 237.31              | 237.93              |
 | V      | 60.00       | 60.00      | 0.04                      | 1.98                      | 0.00                     | 236.87              | 236.87              |
 
-## RN IDLE
+## 🥂 RN IDLE
 
 | Sample | Average FPS | Lowest FPS | Average CPU (all thread)% | Highest CPU (all thread)% | Highest CPU (UI thread)% | Highest CPU (JS thread)% | Average RAM (in MB) | Highest RAM (in MB) |
 | :----- | :---------- | :--------- | :------------------------ | :------------------------ | :----------------------- | :----------------------- | :------------------ | :------------------ |
@@ -45,7 +45,7 @@
 | IV     | 52.25       | 50.40      | 16.51                     | 29.59                     | 16.00                    | 4.03                     | 261.35              | 265.38              |
 | V      | 52.34       | 50.34      | 15.93                     | 25.90                     | 16.10                    | 4.09                     | 255.25              | 258.80              |
 
-## Flutter Interactivity (only Dropdown)
+## 🥂 Flutter Interactivity (only Dropdown)
 
 | Sample | Average FPS | Lowest FPS | Average CPU (all thread)% | Highest CPU (all thread)% | Highest CPU (UI thread)% | Average RAM (in MB) | Highest RAM (in MB) |
 | :----- | :---------- | :--------- | :------------------------ | :------------------------ | :----------------------- | :------------------ | :------------------ |
@@ -55,7 +55,7 @@
 | IV     | 51.53       | 37.29      | 27.81                     | 66.13                     | 55.78                    | 270.35              | 273.16              |
 | V      | 51.69       | 31.14      | 26.32                     | 82.16                     | 62.12                    | 272.25              | 275. 78             |
 
-## RN Interactivity (only Dropdown)
+## 🥂 RN Interactivity (only Dropdown)
 
 | Sample | Average FPS | Lowest FPS | Average CPU (all thread)% | Highest CPU (all thread)% | Highest CPU (UI thread)% | Highest CPU (JS thread)% | Average RAM (in MB) | Highest RAM (in MB) |
 | :----- | :---------- | :--------- | :------------------------ | :------------------------ | :----------------------- | :----------------------- | :------------------ | :------------------ |
@@ -65,7 +65,7 @@
 | IV     | 42.77       | 27.66      | 92.21                     | 183.63                    | 67.86                    | 111.33                   | 318.40              | 327.29              |
 | V      | 43.73       | 28.86      | 79.93                     | 174.60                    | 69.31                    | 107.14                   | 319.16              | 328.86              |
 
-## Flutter Interactivity (Dropdown + Suggestor)
+## 🥂 Flutter Interactivity (Dropdown + Suggestor)
 
 | Sample | Average FPS | Lowest FPS | Average CPU (all thread)% | Highest CPU (all thread)% | Highest CPU (UI thread)% | Average RAM (in MB) | Highest RAM (in MB) |
 | :----- | :---------- | :--------- | :------------------------ | :------------------------ | :----------------------- | :------------------ | :------------------ |
@@ -75,7 +75,7 @@
 | IV     | 50.79       | 34.75      | 29.20                     | 80.16                     | 56.53                    | 292.60              | 296.43              |
 | V      | 51.42       | 31.89      | 28.41                     | 85.54                     | 65.17                    | 293.61              | 302.45              |
 
-## RN Interactivity (Dropdown + Suggestor)
+## 🥂 RN Interactivity (Dropdown + Suggestor)
 
 | Sample | Average FPS | Lowest FPS | Average CPU (all thread)% | Highest CPU (all thread)% | Highest CPU (UI thread)% | Highest CPU (JS thread)% | Average RAM (in MB) | Highest RAM (in MB) |
 | :----- | :---------- | :--------- | :------------------------ | :------------------------ | :----------------------- | :----------------------- | :------------------ | :------------------ |
@@ -85,7 +85,7 @@
 | IV     | 47.70       | 32.51      | 52.33                     | 201.20                    | 59.76                    | 111.55                   | 309.45              | 313.68              |
 | V      | 47.62       | 30.30      | 52.06                     | 178.36                    | 61.39                    | 121.09                   | 318.61              | 324.31              |
 
-## Charts generated by flashlight
+## 🥂 Charts generated by flashlight
 
 <img src="./Flutter_interactivity_complete/sample1/FPS.svg">
 <img src="./Flutter_interactivity_complete/sample1/TotalxCPUxUsagexxxx.svg">
@@ -93,7 +93,7 @@
 <img src="./react_interactivity_complete/sample1/CPUxUsagexperxthreadxxxx.svg">
 <img src = "./Flutter_interactivity_complete/sample1/RAMxUsagexxMBx.svg">
 
-## Links
+## 🥂 Links
 
 - [x] https://github.com/jugshaurya/measureflutter
 - [x] https://github.com/jugshaurya/flutter_app_fn
