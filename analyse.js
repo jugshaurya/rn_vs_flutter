@@ -86,11 +86,11 @@ RN_IDLE_SAMPLES.map((sample, i) => {
 results.averages.rn_idle = getAverage(results.rn_idle);
 
 const FLUTTER_INTERACTIVITY_SAMPLES = [
-  "./Flutter_interactivity/sample1/results_1678957430495.json",
-  "./Flutter_interactivity/sample2/results_1678957453704.json",
-  "./Flutter_interactivity/sample3/results_1678957468989.json",
-  "./Flutter_interactivity/sample4/results_1678957483390.json",
-  "./Flutter_interactivity/sample5/results_1678957497697.json",
+  "./Flutter_interactivity/sample1/results_1680066603964.json",
+  "./Flutter_interactivity/sample2/results_1680066635230.json",
+  "./Flutter_interactivity/sample3/results_1680066662005.json",
+  "./Flutter_interactivity/sample4/results_1680066694562.json",
+  "./Flutter_interactivity/sample5/results_1680066723979.json",
 ];
 
 FLUTTER_INTERACTIVITY_SAMPLES.map((sample, i) => {
@@ -173,11 +173,11 @@ results.averages.flutter_interactivity_complete = getAverage(
 );
 
 const RN_INTERACTIVITY_COMPLETE_SAMPLES = [
-  "./react_interactivity_complete/sample1/results_1679378564031.json",
-  "./react_interactivity_complete/sample2/results_1679378592067.json",
-  "./react_interactivity_complete/sample3/results_1679378621892.json",
-  "./react_interactivity_complete/sample4/results_1679378648452.json",
-  "./react_interactivity_complete/sample5/results_1679378677013.json",
+  "./React_interactivity_complete/sample1/results_1679378564031.json",
+  "./React_interactivity_complete/sample2/results_1679378592067.json",
+  "./React_interactivity_complete/sample3/results_1679378621892.json",
+  "./React_interactivity_complete/sample4/results_1679378648452.json",
+  "./React_interactivity_complete/sample5/results_1679378677013.json",
 ];
 
 RN_INTERACTIVITY_COMPLETE_SAMPLES.map((sample, i) => {

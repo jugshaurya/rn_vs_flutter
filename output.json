@@ -100,49 +100,49 @@
   ],
   "flutter_interactivity": [
     {
-      "Average FPS": "46.49",
-      "Lowest FPS": "12.10",
-      "Average CPU (all thread)%": "39.39",
-      "Highest CPU (all thread)%": "121.76",
-      "Highest CPU (UI thread)%": "95.81",
-      "Average RAM (in MB)": "257.47",
-      "Highest RAM (in MB)": "279.54"
+      "Average FPS": "47.91",
+      "Lowest FPS": "24.07",
+      "Average CPU (all thread)%": "40.18",
+      "Highest CPU (all thread)%": "133.86",
+      "Highest CPU (UI thread)%": "72.98",
+      "Average RAM (in MB)": "270.47",
+      "Highest RAM (in MB)": "300.23"
     },
     {
-      "Average FPS": "49.34",
-      "Lowest FPS": "32.34",
-      "Average CPU (all thread)%": "35.93",
-      "Highest CPU (all thread)%": "90.18",
-      "Highest CPU (UI thread)%": "58.12",
-      "Average RAM (in MB)": "268.13",
-      "Highest RAM (in MB)": "271.66"
+      "Average FPS": "48.88",
+      "Lowest FPS": "26.33",
+      "Average CPU (all thread)%": "36.69",
+      "Highest CPU (all thread)%": "128.26",
+      "Highest CPU (UI thread)%": "74.15",
+      "Average RAM (in MB)": "282.16",
+      "Highest RAM (in MB)": "295.33"
     },
     {
-      "Average FPS": "52.20",
-      "Lowest FPS": "36.24",
-      "Average CPU (all thread)%": "25.88",
-      "Highest CPU (all thread)%": "76.62",
-      "Highest CPU (UI thread)%": "51.08",
-      "Average RAM (in MB)": "269.18",
-      "Highest RAM (in MB)": "273.03"
+      "Average FPS": "47.42",
+      "Lowest FPS": "30.47",
+      "Average CPU (all thread)%": "41.45",
+      "Highest CPU (all thread)%": "94.49",
+      "Highest CPU (UI thread)%": "61.02",
+      "Average RAM (in MB)": "285.18",
+      "Highest RAM (in MB)": "295.25"
     },
     {
-      "Average FPS": "51.53",
-      "Lowest FPS": "37.29",
-      "Average CPU (all thread)%": "27.81",
-      "Highest CPU (all thread)%": "66.13",
-      "Highest CPU (UI thread)%": "55.78",
-      "Average RAM (in MB)": "270.35",
-      "Highest RAM (in MB)": "273.16"
+      "Average FPS": "48.77",
+      "Lowest FPS": "33.01",
+      "Average CPU (all thread)%": "35.29",
+      "Highest CPU (all thread)%": "94.07",
+      "Highest CPU (UI thread)%": "63.75",
+      "Average RAM (in MB)": "283.23",
+      "Highest RAM (in MB)": "304.54"
     },
     {
-      "Average FPS": "51.69",
-      "Lowest FPS": "31.14",
-      "Average CPU (all thread)%": "26.32",
-      "Highest CPU (all thread)%": "82.16",
-      "Highest CPU (UI thread)%": "62.12",
-      "Average RAM (in MB)": "272.25",
-      "Highest RAM (in MB)": "275.78"
+      "Average FPS": "47.26",
+      "Lowest FPS": "29.70",
+      "Average CPU (all thread)%": "40.80",
+      "Highest CPU (all thread)%": "98.99",
+      "Highest CPU (UI thread)%": "66.13",
+      "Average RAM (in MB)": "292.17",
+      "Highest RAM (in MB)": "299.74"
     }
   ],
   "rn_interactivity": [
@@ -378,39 +378,39 @@
     },
     "flutter_interactivity": {
       "Average FPS": {
-        "sum": 251.25000000000003,
+        "sum": 240.23999999999998,
         "count": 5,
-        "avg": 50.25000000000001
+        "avg": 48.047999999999995
       },
       "Lowest FPS": {
-        "sum": 149.11,
+        "sum": 143.57999999999998,
         "count": 5,
-        "avg": 29.822000000000003
+        "avg": 28.715999999999998
       },
       "Average CPU (all thread)%": {
-        "sum": 155.32999999999998,
+        "sum": 194.41000000000003,
         "count": 5,
-        "avg": 31.065999999999995
+        "avg": 38.882000000000005
       },
       "Highest CPU (all thread)%": {
-        "sum": 436.85,
+        "sum": 549.67,
         "count": 5,
-        "avg": 87.37
+        "avg": 109.934
       },
       "Highest CPU (UI thread)%": {
-        "sum": 322.90999999999997,
+        "sum": 338.03,
         "count": 5,
-        "avg": 64.582
+        "avg": 67.606
       },
       "Average RAM (in MB)": {
-        "sum": 1337.38,
+        "sum": 1413.2100000000003,
         "count": 5,
-        "avg": 267.476
+        "avg": 282.64200000000005
       },
       "Highest RAM (in MB)": {
-        "sum": 1373.17,
+        "sum": 1495.09,
         "count": 5,
-        "avg": 274.634
+        "avg": 299.018
       }
     },
     "rn_interactivity": {
