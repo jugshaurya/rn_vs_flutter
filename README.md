@@ -14,6 +14,18 @@
 | **Average RAM Usage**                          | 239.77 MB          | 254.2 MB                                                    | 282.64 MB                                        | 317.5 MB                                                      | 286.9 MB                                              | 309.58 MB                                                     |
 | **Highest RAM Usage**                          | 240.8 MB           | 264.8 MB                                                    | 299.02 MB                                        | 330.9 MB                                                      | 297.4 MB                                              | 315.22 MB                                                     |
 
+## 🥂 Comparison Table (Average over 5 sample Tables below)
+
+| Metric                                         | Flutter with Interactivity <br/> (only Dropdown) | RN with Interactivity <br/> (only Dropdown)                   | Flutter with Interactivity<br/>(Dropdown + Suggestor) | RN with Interactivity<br/>(Dropdown + Suggestor)              |
+| ---------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------- |
+| **Average FPS**                                | 48.04                                            | 43.5                                                          | 50.1                                                  | 47.98                                                         |
+| **Lowest FPS**                                 | 28.71                                            | 26.3                                                          | 27.98                                                 | 30.3                                                          |
+| **Average CPU usage <br/> (all threads)**      | 38.88%%                                          | 86.5%                                                         | 31.3%                                                 | 48.9%                                                         |
+| **Highest CPU Usage <br/> (all threads)**      | 109.93%                                          | 191.16%                                                       | 103.9%                                                | 186.4%                                                        |
+| **Highest CPU Usage <br/> for UI(/JS) Thread** | 67.61%(UI Thread)                                | 71.15%<br/>(for UI Thread) <br/> 113.46% <br/>(for JS Thread) | 67.9% (UI Thread)                                     | 64.65%<br/>(for UI Thread) <br/> 112.98% <br/>(for JS Thread) |
+| **Average RAM Usage**                          | 282.64 MB                                        | 317.5 MB                                                      | 286.9 MB                                              | 309.58 MB                                                     |
+| **Highest RAM Usage**                          | 299.02 MB                                        | 330.9 MB                                                      | 297.4 MB                                              | 315.22 MB                                                     |
+
 ## 🥂 Above Table Charts for comparison
 
 <img src="./images/newplot.png">
